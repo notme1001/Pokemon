@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "34cbfbb9-df8d-49c0-b38d-6f9dbaa735d0",
+		"name": "PokeAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1120/api",
+					"host": [
+						"localhost"
+					],
+					"port": "1120",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Api-Limit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1120/api/limit/20",
+					"host": [
+						"localhost"
+					],
+					"port": "1120",
+					"path": [
+						"api",
+						"limit",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"demo\",\n    \"password\": \"demo@890\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1120/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "1120",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"demo\",\n    \"password\": \"demo@890\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1120/api/login",
+					"host": [
+						"localhost"
+					],
+					"port": "1120",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
